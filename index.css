@@ -29,11 +29,11 @@ html, body{
     font-family: "Roboto", sans-serif;
 }
 
-.card:not(.portal){
+.card {
     transition: all .2s ease-in;
 }
 
-.card:hover:not(.portal) {
+.card:hover {
     box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2);
     background-color: #383838;
     transition: all .2s ease-out;
@@ -76,10 +76,6 @@ html, body{
     flex-direction: column;
     color: white;
     font-family: "Roboto", sans-serif;
-}
-
-.portal {
-    filter: grayscale(100%);
 }
 
 .titulo {
